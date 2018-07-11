@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'todos', # todo app
-    'rest_framework', # restful apis
+    'rest_framework', # restful services
     'corsheaders', # Cross-Origin Resource Sharing(CORS)
     'django.contrib.admin',
     'django.contrib.auth',
