@@ -7,7 +7,7 @@ class App extends Component {
 
   async componentDidMount() {
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/');
+      const res = await fetch('https://dry-woodland-58327.herokuapp.com/api/');
       const todos = await res.json();
       this.setState({
         todos
